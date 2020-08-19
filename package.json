@@ -1,0 +1,25 @@
+{
+  "name": "asyncjs",
+  "version": "1.0.0",
+  "description": "asynchronus projects using all methods",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node callbacks/index.js",
+    "callback:challenge": "node callbacks/challenge.js",
+    "promise": "node promises/index.js",
+    "promise:challenge": "node promises/challenge.js",
+    "async": "node async/index.js",
+    "async:challenge": "node async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "async",
+    "await",
+    "promises"
+  ],
+  "author": "Anibal",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
